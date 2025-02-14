@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma's Love Letter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Valentine's Day! 💖</h1>
+        <p class="subheading">To my Valentine, the one who makes every day special. ❤️</p>
+        
+        <div class="letter-box">
+            <div class="letter" onclick="revealLetter()">
+                <img src="love.jpg" alt="Envelope" class="love-img">
+                <p class="click-text">click here for your love!</p>
+            </div>
+        </div>
+        
+        <div id="message" class="hidden">
+            <p id="loveMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

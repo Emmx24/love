@@ -1,0 +1,102 @@
+/* Global styles */
+body {
+    background: linear-gradient(135deg, #f8c8d9, #ffb6b9);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 1px;
+}
+
+h1 {
+    color: #ff6f61;
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5em;
+    margin-bottom: 1px;
+}
+
+.subheading {
+    color: #ff6f61;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.letter-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    transform: scale(1);
+    transition: transform 0.2s ease;
+    margin-bottom: 5px ;
+}
+
+.letter {
+    cursor: pointer;
+    background-color: #f8f0e3;
+    padding: 25px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.letter:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.love-img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.click-text {
+    font-size: 1.5em;
+    color: #ff6f61;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+    margin-top: 1px;
+    font-size: 1.5em;
+    color: #333;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+#message p {
+    font-size: 1.4em;
+    color: #ff6f61;
+    background-color: #fdf9f9;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto 0 auto; /* Adjust the 50px to move it further down */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#loveMessage {
+    font-size: 1.4em;
+    color: #ff6f61;
+    font-style: italic;
+}
